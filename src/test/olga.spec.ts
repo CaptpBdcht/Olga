@@ -11,4 +11,8 @@ describe('Olga should', () => {
         let olgaTool = new Olga();
         olgaTool.should.exist;
     });
+
+    it('have a BST tool', () => {
+        Olga.BST.should.exist;
+    });
 });
